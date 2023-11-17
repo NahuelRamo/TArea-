@@ -1,0 +1,137 @@
+
+Alumno@Programacion-16 MINGW64 ~
+$ ls -l
+total 4257
+drwxr-xr-x 1 Alumno 197121       0 Nov 17 14:56  1111/
+drwxr-xr-x 1 Alumno 197121       0 Mar  6  2023 '3D Objects'/
+drwxr-xr-x 1 Alumno 197121       0 Mar  6  2023  AppData/
+lrwxrwxrwx 1 Alumno 197121      29 Mar  6  2023 'Configuración local' -> /c/Users/Alumno/AppData/Local/
+drwxr-xr-x 1 Alumno 197121       0 Mar  6  2023  Contacts/
+lrwxrwxrwx 1 Alumno 197121      59 Mar  6  2023  Cookies -> /c/Users/Alumno/AppData/Local/Microsoft/Windows/INetCookies/
+lrwxrwxrwx 1 Alumno 197121      31 Mar  6  2023 'Datos de programa' -> /c/Users/Alumno/AppData/Roaming/
+drwxr-xr-x 1 Alumno 197121       0 Nov 17 14:46  Desktop/
+drwxr-xr-x 1 Alumno 197121       0 Sep 13 09:05  Documents/
+drwxr-xr-x 1 Alumno 197121       0 Nov 16 11:22  Downloads/
+lrwxrwxrwx 1 Alumno 197121      67 Mar  6  2023 'Entorno de red' -> '/c/Users/Alumno/AppData/Roaming/Microsoft/Windows/Network Shortcuts'/
+drwxr-xr-x 1 Alumno 197121       0 Mar  6  2023  Favorites/
+lrwxrwxrwx 1 Alumno 197121      67 Mar  6  2023  Impresoras -> '/c/Users/Alumno/AppData/Roaming/Microsoft/Windows/Printer Shortcuts'/
+drwxr-xr-x 1 Alumno 197121       0 Nov 17 12:18  IntelGraphicsProfiles/
+drwxr-xr-x 1 Alumno 197121       0 Mar  6  2023  Links/
+lrwxrwxrwx 1 Alumno 197121      60 Mar  6  2023 'Menú Inicio' -> '/c/Users/Alumno/AppData/Roaming/Microsoft/Windows/Start Menu'/
+lrwxrwxrwx 1 Alumno 197121      25 Mar  6  2023 'Mis documentos' -> /c/Users/Alumno/Documents/
+drwxr-xr-x 1 Alumno 197121       0 Nov 16 10:59  Music/
+-rw-r--r-- 1 Alumno 197121 2359296 Nov 17 11:58  NTUSER.DAT
+-rw-r--r-- 1 Alumno 197121   65536 Mar  6  2023  NTUSER.DAT{53b39e88-18c4-11ea-a811-000d3aa4692b}.TM.blf
+-rw-r--r-- 1 Alumno 197121  524288 Mar  6  2023  NTUSER.DAT{53b39e88-18c4-11ea-a811-000d3aa4692b}.TMContainer00000000000000000001.regtrans-ms
+-rw-r--r-- 1 Alumno 197121  524288 Mar  6  2023  NTUSER.DAT{53b39e88-18c4-11ea-a811-000d3aa4692b}.TMContainer00000000000000000002.regtrans-ms
+drwxr-xr-x 1 Alumno 197121       0 Mar  6  2023  OneDrive/
+drwxr-xr-x 1 Alumno 197121       0 Aug 17 09:28  Pictures/
+lrwxrwxrwx 1 Alumno 197121      59 Mar  6  2023  Plantillas -> /c/Users/Alumno/AppData/Roaming/Microsoft/Windows/Templates/
+drwxr-xr-x 1 Alumno 197121       0 Mar 31  2023  PycharmProjects/
+lrwxrwxrwx 1 Alumno 197121      56 Mar  6  2023  Reciente -> /c/Users/Alumno/AppData/Roaming/Microsoft/Windows/Recent/
+drwxr-xr-x 1 Alumno 197121       0 Mar  6  2023 'Saved Games'/
+drwxr-xr-x 1 Alumno 197121       0 Mar  6  2023  Searches/
+lrwxrwxrwx 1 Alumno 197121      56 Mar  6  2023  SendTo -> /c/Users/Alumno/AppData/Roaming/Microsoft/Windows/SendTo/
+drwxr-xr-x 1 Alumno 197121       0 Mar 10  2023  Videos/
+drwxr-xr-x 1 Alumno 197121       0 Nov 17 08:36 'VirtualBox VMs'/
+-rw-r--r-- 1 Alumno 197121  294912 Mar  6  2023  ntuser.dat.LOG1
+-rw-r--r-- 1 Alumno 197121  548864 Mar  6  2023  ntuser.dat.LOG2
+-rw-r--r-- 1 Alumno 197121      20 Mar  6  2023  ntuser.ini
+drwxr-xr-x 1 Alumno 197121       0 Mar 16  2023  pseint/
+drwxr-xr-x 1 Alumno 197121       0 Nov 16 11:13 'sub_sumativa 3'/
+
+Alumno@Programacion-16 MINGW64 ~
+$ mkdir nuevo
+
+Alumno@Programacion-16 MINGW64 ~
+$ cd nuevo
+
+Alumno@Programacion-16 MINGW64 ~/nuevo
+$ cat > "README.md"
+
+Alumno@Programacion-16 MINGW64 ~/nuevo
+$ git init
+Initialized empty Git repository in C:/Users/Alumno/nuevo/.git/
+
+Alumno@Programacion-16 MINGW64 ~/nuevo (master)
+$ git add .
+
+Alumno@Programacion-16 MINGW64 ~/nuevo (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   README.md
+
+
+Alumno@Programacion-16 MINGW64 ~/nuevo (master)
+$ git commit -m "Im so tired"
+[master (root-commit) a1ab18a] Im so tired
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 README.md
+
+Alumno@Programacion-16 MINGW64 ~/nuevo (master)
+$ git remote add origin https://github.com/NahuelRamo/sup_sumativa3.git
+
+Alumno@Programacion-16 MINGW64 ~/nuevo (master)
+$ git push -u origin master
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 220 bytes | 220.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/NahuelRamo/sup_sumativa3.git
+ * [new branch]      master -> master
+branch 'master' set up to track 'origin/master'.
+
+Alumno@Programacion-16 MINGW64 ~/nuevo (master)
+$ echo "^[[200~        Nombre: [insertar su nombre completo]" >> README.md
+
+Alumno@Programacion-16 MINGW64 ~/nuevo (master)
+$ echo "" >> README.md
+
+Alumno@Programacion-16 MINGW64 ~/nuevo (master)
+$ echo "Nombre:Nahuel Ramos/nCurso:3d/nFecha:17.11.2023/nAsignatura:Soporte a usuarios y productividad" >> README.md
+
+Alumno@Programacion-16 MINGW64 ~/nuevo (master)
+$ cat README.md
+        Nombre: [insertar su nombre completo]
+
+Nombre:Nahuel Ramos/nCurso:3d/nFecha:17.11.2023/nAsignatura:Soporte a usuarios y productividad
+
+Alumno@Programacion-16 MINGW64 ~/nuevo (master)
+$ echo  "Nombre:Nahuel Ramos \nCurso:3d \nFecha:17.11.2023\nAsignatura:Soporte a usuarios y productividad " >> README.md
+
+Alumno@Programacion-16 MINGW64 ~/nuevo (master)
+$ git add .
+warning: in the working copy of 'README.md', LF will be replaced by CRLF the next time Git touches it
+
+Alumno@Programacion-16 MINGW64 ~/nuevo (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   README.md
+
+
+Alumno@Programacion-16 MINGW64 ~/nuevo (master)
+$ git commit -m "reescrito"
+[master df77e53] reescrito
+ 1 file changed, 4 insertions(+)
+S
+Alumno@Programacion-16 MINGW64 ~/nuevo (master)
+$ git push -u origin
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 391 bytes | 391.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/NahuelRamo/sup_sumativa3.git
+   a1ab18a..df77e53  master -> master
+branch 'master' set up to track 'origin/master'.
+
